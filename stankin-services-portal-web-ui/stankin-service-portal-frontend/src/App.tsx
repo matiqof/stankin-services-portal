@@ -1,14 +1,13 @@
-import './App.css'
+import "./App.css";
 
 function App() {
-
   return (
-      <>
-        <h1 className="text-3xl font-bold underline text-red-950">
-          Tailwind CSS
-        </h1>
-      </>
-  )
+    <>
+      <h1 className="text-3xl font-bold underline text-orange-300">
+        Tailwind CSS
+      </h1>
+    </>
+  );
 }
 
-export default App
+export default App;
