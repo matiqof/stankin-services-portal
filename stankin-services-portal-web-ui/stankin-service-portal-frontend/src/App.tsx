@@ -1,11 +1,15 @@
 import "./App.css";
-
+import {Routes, Route, Link} from "react-router-dom";
+import LoginPage from "./pages/LoginPage.tsx";
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold underline text-orange-300">
-        Tailwind CSS
-      </h1>
+        {/*<Link to="/auth">*/}
+        {/*    Auth*/}
+        {/*</Link>*/}
+        <Routes>
+            <Route path="/auth" element={<LoginPage/>}/>
+        </Routes>
     </>
   );
 }
