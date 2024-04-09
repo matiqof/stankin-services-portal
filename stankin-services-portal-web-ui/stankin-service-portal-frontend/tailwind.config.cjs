@@ -15,6 +15,7 @@ export default {
       'stankin-white': '#ffffff',
       'stankin-black': '#000000',
       'stankin-blue': '#101075',
+      'stankin-bg-main': '#F5F5F5',
     },
   },
   plugins: [require("preline/plugin"), require("@tailwindcss/forms")],
