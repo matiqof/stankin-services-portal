@@ -1,8 +1,32 @@
 import axios from 'axios';
-import AuthInput from "../components/AuthInput.tsx";
-import AuthButton from "../components/AuthButton.tsx";
+import CustomInput from "../components/CustomInput.tsx";
+import CustomButton from '../components/CustomButton.tsx';
+import React, {useState} from "react";
 
 const LoginPage = () => {
+
+    const [login, setLogin] = useState({login : ''});
+    const [password, setPassword] = useState({password: ''});
+
+    const handleInputLogin = (e: React.ChangeEvent<HTMLInputElement>) => {
+        const { name, value } = e.target;
+        //console.log(e.target);
+        setLogin((prevInputs) => ({
+            ...prevInputs,
+            [name]: value,
+        }));
+    };
+
+    const handleInputPassword = (e: React.ChangeEvent<HTMLInputElement>) => {
+        const { name, value } = e.target;
+        //console.log(e.target);
+        setPassword((prevInputs) => ({
+            ...prevInputs,
+            [name]: value,
+        }));
+    };
+    console.log(login);
+    console.log(password);
 
     async function checkUser() {
         try {
@@ -23,17 +47,19 @@ const LoginPage = () => {
     }
     return (
         <form>
-            <AuthInput
+            <CustomInput
                     type="text"
                     placeholder="Введите логин"
                     name='login'
+                    eventHandler={e => handleInputLogin(e)}
             />
-            <AuthInput
+            <CustomInput
                     type="password"
                     placeholder="Введите логин"
                     name='password'
+                    eventHandler={e => handleInputPassword(e)}
             />
-            <AuthButton type="submit" onClick={e => handleClickBtn(e)}>Войти</AuthButton>
+            <CustomButton type="submit" onClick={e => handleClickBtn(e)}>Войти</CustomButton>
         </form>
     );
 };
