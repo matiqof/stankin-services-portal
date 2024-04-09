@@ -7,6 +7,15 @@ export default {
   ],
   theme: {
     extend: {},
+    colors: {
+      transparent: 'transparent',
+      current: 'currentColor',
+      'stankin-red': '#9C0C0C',
+      'stankin-gray': '#797979',
+      'stankin-white': '#ffffff',
+      'stankin-black': '#000000',
+      'stankin-blue': '#101075',
+    },
   },
-  plugins: [require("preline/plugin")],
+  plugins: [require("preline/plugin"), require("@tailwindcss/forms")],
 };
