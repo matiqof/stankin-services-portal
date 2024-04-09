@@ -1,10 +1,15 @@
 import "./App.css";
-import {Outlet} from "react-router-dom";
+import {Outlet, useLocation} from "react-router-dom";
+import NavMenu from "./components/NavMenu.tsx";
 function App() {
+    const location = useLocation()
   return (
-    <>
-        <Outlet></Outlet>
-    </>
+    <div className='bg-stankin-bg-main'>
+        {location.pathname !== "/auth" && (
+            <NavMenu />
+        )}
+        <Outlet/>
+    </div>
   );
 }
 
