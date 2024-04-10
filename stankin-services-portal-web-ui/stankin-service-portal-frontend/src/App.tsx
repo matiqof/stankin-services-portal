@@ -4,11 +4,13 @@ import NavMenu from "./components/NavMenu.tsx";
 function App() {
     const location = useLocation()
   return (
-    <div className='bg-stankin-bg-main'>
+    <div>
         {location.pathname !== "/auth" && (
             <NavMenu />
         )}
-        <Outlet/>
+        <div className="max-w-[1100px] px-[30px] mx-auto">
+            <Outlet/>
+        </div>
     </div>
   );
 }

@@ -1,5 +1,5 @@
 import {useState} from 'react';
-import CustomModal from "../components/CustomModal.tsx";
+import CustomModal from "../components/UI/CustomModal.tsx";
 import {Link} from "react-router-dom";
 
 function ServicePage() {
