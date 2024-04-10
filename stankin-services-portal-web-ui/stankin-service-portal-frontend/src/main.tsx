@@ -6,12 +6,14 @@ import LoginPage from "./pages/LoginPage.tsx";
 import ServicePage from "./pages/ServicePage.tsx";
 import HomePage from "./pages/HomePage.tsx";
 import CertificatePage from "./pages/CertificatePage.tsx";
+import NotFoundPage from "./pages/NotFoundPage.tsx";
 
 const router = createBrowserRouter(
     [
         {
             path: "/",
             element: <App />,
+            errorElement: <NotFoundPage />,
             children: [
                 {
                     path: "/",
