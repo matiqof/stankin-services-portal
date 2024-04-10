@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    body {
+        @apply bg-stankin-bg-main;
+        @apply font-Inter;
+    }
+}
+
+@layer components {
+    .link-to-auth:hover svg {
+        transform: rotate(-45deg);
+    }
+}

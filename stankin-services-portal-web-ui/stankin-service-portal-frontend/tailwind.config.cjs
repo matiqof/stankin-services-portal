@@ -17,6 +17,9 @@ export default {
       'stankin-blue': '#101075',
       'stankin-bg-main': '#F5F5F5',
     },
+    fontFamily: {
+      Inter: ["Inter", "sans-serif"],
+    }
   },
   plugins: [require("preline/plugin"), require("@tailwindcss/forms")],
 };

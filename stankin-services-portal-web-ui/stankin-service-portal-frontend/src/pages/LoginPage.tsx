@@ -1,6 +1,6 @@
 import axios from 'axios';
-import CustomInput from "../components/CustomInput.tsx";
-import CustomButton from '../components/CustomButton.tsx';
+import CustomInput from "../components/UI/CustomInput.tsx";
+import CustomButton from '../components/UI/CustomButton.tsx';
 import React, {useState} from "react";
 import {Link} from "react-router-dom";
 
