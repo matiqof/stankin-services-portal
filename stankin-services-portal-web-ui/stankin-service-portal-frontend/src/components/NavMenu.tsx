@@ -1,5 +1,5 @@
 import {Link} from "react-router-dom";
-import NavButton from "./NavButton.tsx";
+import NavButton from "./UI/NavButton.tsx";
 function NavMenu() {
     return (
         <>
