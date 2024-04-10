@@ -3,6 +3,7 @@ import App from './App.tsx'
 import './index.css'
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import LoginPage from "./pages/LoginPage.tsx";
+import ServicePage from "./pages/ServicePage.tsx";
 
 const router = createBrowserRouter(
     [
@@ -28,7 +29,7 @@ const router = createBrowserRouter(
                 },
                 {
                     path: "/service",
-                    element: <></>
+                    element: <ServicePage />
                 },
             ]
         },
