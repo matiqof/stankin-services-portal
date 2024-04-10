@@ -4,6 +4,7 @@ import CustomModal from "../UI/CustomModal.tsx";
 const HomeInfo = () => {
     return <div>
         <CustomModal
+            id='alertCookie'
             title="Cookies !"
             description="Наш сервис использует cookie-файлы, чтобы сделать ваше пребывание на нём максимально удобным"
             icon=
@@ -97,7 +98,6 @@ const HomeInfo = () => {
                         stroke-linecap="round"/>
                 </svg>)}
             titleButton="Согласен"
-
         />
         <h1 className="text-4xl max-w-[380px] mb-14 font-medium">
             Закажи справку из <span className="text-stankin-red">СТАНКИН</span> онлайн
@@ -123,8 +123,7 @@ const HomeInfo = () => {
                       strokeLinejoin="round"/>
             </svg>
         </Link>
-
     </div>
-}
+};
 
 export default HomeInfo;
