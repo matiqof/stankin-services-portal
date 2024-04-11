@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@table-library/react-table-library": "^4.1.7",
     "@types/react-slick": "^0.23.13",
     "axios": "^1.6.8",
     "preline": "^2.0.3",
