@@ -5,23 +5,23 @@ import io.swagger.v3.oas.annotations.info.Contact;
 import io.swagger.v3.oas.annotations.info.Info;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
+import org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration;
+import org.springframework.context.annotation.ComponentScan;
 
 @OpenAPIDefinition(
-        info = @Info(
-                title = "Портал услуг вуза СТАНКИН",
-                version = "01.000",
-                contact = @Contact(
-                        email = "matiqof@gmail.com"
-                )
-        )
+		info = @Info(
+				title = "Портал услуг вуза СТАНКИН",
+				version = "01.000",
+				contact = @Contact(
+						email = "matiqof@gmail.com"
+				)
+		)
 )
-
-@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class })
+@SpringBootApplication
 public class StankinServicesPortalBackApplication {
 
-    public static void main(String[] args) {
-        SpringApplication.run(StankinServicesPortalBackApplication.class, args);
-    }
+	public static void main(String[] args) {
+		SpringApplication.run(StankinServicesPortalBackApplication.class, args);
+	}
 
 }
