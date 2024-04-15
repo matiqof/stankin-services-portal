@@ -29,8 +29,8 @@ const LoginPage = () => {
     async function checkUser() {
         try {
             const req = await axios.post(`http://localhost:8080/authorization/user/check`, {
-                userName: login,
-                password: password
+                userName: login.login,
+                password: password.password
             });
             console.log(req.data);
             const {userName, studentGroup, passwordUser} = req.data;
