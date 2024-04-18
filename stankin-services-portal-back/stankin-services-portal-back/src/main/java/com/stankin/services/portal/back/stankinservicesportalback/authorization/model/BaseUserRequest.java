@@ -3,9 +3,11 @@ package com.stankin.services.portal.back.stankinservicesportalback.authorization
 import lombok.Getter;
 import lombok.Setter;
 
+import java.util.UUID;
+
 @Getter
 @Setter
-public class CheckUserRequest {
+public class BaseUserRequest {
 
     /**
      * Логин пользователя
@@ -16,4 +18,9 @@ public class CheckUserRequest {
      * Пароль пользователя
      */
     private String password;
+
+    /**
+     * Уникальный токен сессии пользователя
+     */
+    private UUID token;
 }
