@@ -1,6 +1,7 @@
 package com.stankin.services.portal.back.stankinservicesportalback.authorization.service;
 
-import com.stankin.services.portal.back.stankinservicesportalback.authorization.model.CheckUserRequest;
+import com.stankin.services.portal.back.stankinservicesportalback.authorization.model.BaseUserRequest;
+import com.stankin.services.portal.back.stankinservicesportalback.authorization.model.CreateUserRequest;
 import com.stankin.services.portal.back.stankinservicesportalback.authorization.model.ClientDTO;
 
 public interface AuthorizationService {
@@ -10,5 +11,11 @@ public interface AuthorizationService {
      * @param request параметры
      * @return пользователь
      */
-    ClientDTO checkUser(CheckUserRequest request);
+    ClientDTO checkUser(BaseUserRequest request);
+
+    /**
+     * Ручное создание пользователя
+     * @param request параметры
+     */
+    void createUser(CreateUserRequest request);
 }

@@ -10,7 +10,15 @@ public interface ClientRepository extends JpaRepository<Client, UUID>{
 
     /**
      * Получить пользователя по логину
+     * @param userName логин
      * @return пользователь
      */
     Client findByUserName(String userName);
+
+    /**
+     * Получить пользователя по токену
+     * @param token токен
+     * @return пользователь
+     */
+    Client findByToken(UUID token);
 }

@@ -5,7 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6c90cd6-b626-459c-8833-01cccf04980c" name="Changes" comment="#19 Реализовать авторизацию на бэке">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8db2780e-9a6a-49e2-900a-60ec8078a127.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8db2780e-9a6a-49e2-900a-60ec8078a127.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8db2780e-9a6a-49e2-900a-60ec8078a127/storage_v2/_src_/database/vk-cloud-dbaas-quickstart._RKkhg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8db2780e-9a6a-49e2-900a-60ec8078a127/storage_v2/_src_/database/vk-cloud-dbaas-quickstart._RKkhg/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stankin-services-portal-back/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/stankin-services-portal-back/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stankin-services-portal-back/src/main/java/com/stankin/services/portal/back/stankinservicesportalback/authorization/controller/AuthorizationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/stankin-services-portal-back/src/main/java/com/stankin/services/portal/back/stankinservicesportalback/authorization/controller/AuthorizationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stankin-services-portal-back/src/main/java/com/stankin/services/portal/back/stankinservicesportalback/authorization/mapper/AuthorizationMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/stankin-services-portal-back/src/main/java/com/stankin/services/portal/back/stankinservicesportalback/authorization/mapper/AuthorizationMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stankin-services-portal-back/src/main/java/com/stankin/services/portal/back/stankinservicesportalback/authorization/model/CheckUserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/stankin-services-portal-back/src/main/java/com/stankin/services/portal/back/stankinservicesportalback/authorization/model/CreateUserRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stankin-services-portal-back/src/main/java/com/stankin/services/portal/back/stankinservicesportalback/authorization/model/ClientDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/stankin-services-portal-back/src/main/java/com/stankin/services/portal/back/stankinservicesportalback/authorization/model/ClientDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stankin-services-portal-back/src/main/java/com/stankin/services/portal/back/stankinservicesportalback/authorization/service/AuthorizationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/stankin-services-portal-back/src/main/java/com/stankin/services/portal/back/stankinservicesportalback/authorization/service/AuthorizationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stankin-services-portal-back/src/main/java/com/stankin/services/portal/back/stankinservicesportalback/authorization/service/AuthorizationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/stankin-services-portal-back/src/main/java/com/stankin/services/portal/back/stankinservicesportalback/authorization/service/AuthorizationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stankin-services-portal-back/src/main/java/com/stankin/services/portal/back/stankinservicesportalback/entity/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/stankin-services-portal-back/src/main/java/com/stankin/services/portal/back/stankinservicesportalback/entity/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stankin-services-portal-back/src/main/java/com/stankin/services/portal/back/stankinservicesportalback/repository/ClientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/stankin-services-portal-back/src/main/java/com/stankin/services/portal/back/stankinservicesportalback/repository/ClientRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stankin-services-portal-back/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/stankin-services-portal-back/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,10 +33,29 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$/stankin-services-portal-back">
+          <activation />
+        </task>
         <projects_view>
           <option name="groupModules" value="false" />
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="stankinservicesportalback" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="stankinservicesportalback" type="f1a62948:ProjectNode" />
+                <item name="stankinservicesportalback" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="stankinservicesportalback" type="f1a62948:ProjectNode" />
+                <item name="stankinservicesportalback" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -39,6 +71,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="01.000" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GitRewordedCommitMessages">
@@ -72,11 +109,12 @@
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "temurin-17",
-    "last_opened_file_path": "C:/Projects/IdeaProjects/stankin-services-portal/stankin-services-portal-back",
+    "last_opened_file_path": "D:/Projects/IntellijIdea/stankin-services-portal/stankin-services-portal-back",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -103,6 +141,9 @@
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.stankin.services.portal.back.stankinservicesportalback.authorization.repository" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.stankin.services.portal.back.stankinservicesportalback.authorization.model" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -112,6 +153,9 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.StankinServicesPortalBackApplication (DEV)">
+    <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration name="StankinServicesPortalBackApplication (DEV)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="ACTIVE_PROFILES" value="DEV" />
       <module name="stankinservicesportalback.main" />
@@ -128,9 +172,15 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="HTTP Request.generated-requests | #1" />
       <item itemvalue="Spring Boot.StankinServicesPortalBackApplication" />
       <item itemvalue="Spring Boot.StankinServicesPortalBackApplication (DEV)" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.generated-requests | #1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -142,6 +192,7 @@
       <updated>1713091119038</updated>
       <workItem from="1713091120036" duration="1078000" />
       <workItem from="1713092212907" duration="11473000" />
+      <workItem from="1713441792614" duration="8686000" />
     </task>
     <task id="LOCAL-00001" summary="#19 Реализовать авторизацию на бэке">
       <created>1713103462718</created>
@@ -182,17 +233,6 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="#19 Реализовать авторизацию на бэке" />
     <option name="LAST_COMMIT_MESSAGE" value="#19 Реализовать авторизацию на бэке" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/stankin-services-portal-back/src/main/java/com/stankin/services/portal/back/stankinservicesportalback/authorization/service/AuthorizationServiceImpl.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

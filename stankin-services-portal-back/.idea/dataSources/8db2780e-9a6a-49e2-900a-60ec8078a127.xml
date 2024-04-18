@@ -19,9 +19,9 @@
 16387||-9223372036854775808|T|G
 16387||16385|T|G
 16387||16388|T|G</Grants>
-      <IntrospectionStateNumber>988</IntrospectionStateNumber>
+      <IntrospectionStateNumber>1024</IntrospectionStateNumber>
       <ServerVersion>15.6</ServerVersion>
-      <StartupTime>1713091005</StartupTime>
+      <StartupTime>1713246898</StartupTime>
       <TimeZones>true ACDT
 true ACSST
 false ACST
@@ -1440,7 +1440,7 @@ true posixrules
 17239||10|C|G
 17239||-9223372036854775808|U|G
 17239||10|U|G</Grants>
-      <IntrospectionStateNumber>988</IntrospectionStateNumber>
+      <IntrospectionStateNumber>1024</IntrospectionStateNumber>
       <ObjectId>16387</ObjectId>
       <OwnerName>os_admin</OwnerName>
     </database>
@@ -5327,7 +5327,7 @@ true posixrules
     <schema id="273" parent="4" name="public">
       <Comment>standard public schema</Comment>
       <Current>1</Current>
-      <IntrospectionStateNumber>988</IntrospectionStateNumber>
+      <IntrospectionStateNumber>1024</IntrospectionStateNumber>
       <ObjectId>2200</ObjectId>
       <StateNumber>730</StateNumber>
       <OwnerName>pg_database_owner</OwnerName>
@@ -5346,14 +5346,14 @@ true posixrules
       <Event>ddl_command_end</Event>
       <ObjectId>17729</ObjectId>
       <StateNumber>761</StateNumber>
-      <Tags>ALTER TABLE
-CREATE TRIGGER
-CREATE TABLE
+      <Tags>ALTER INDEX
+ALTER TABLE
 CREATE INDEX
-ALTER INDEX
-DROP TABLE
+CREATE TABLE
+CREATE TRIGGER
 DROP INDEX
-DROP SCHEMA</Tags>
+DROP SCHEMA
+DROP TABLE</Tags>
       <CallRoutineId>17728</CallRoutineId>
     </trigger>
     <trigger id="277" parent="4" name="timescaledb_ddl_sql_drop">
