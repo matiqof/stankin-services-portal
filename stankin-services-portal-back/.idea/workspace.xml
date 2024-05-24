@@ -5,19 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6c90cd6-b626-459c-8833-01cccf04980c" name="Changes" comment="#19 Реализовать авторизацию на бэке">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8db2780e-9a6a-49e2-900a-60ec8078a127.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8db2780e-9a6a-49e2-900a-60ec8078a127.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8db2780e-9a6a-49e2-900a-60ec8078a127/storage_v2/_src_/database/vk-cloud-dbaas-quickstart._RKkhg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8db2780e-9a6a-49e2-900a-60ec8078a127/storage_v2/_src_/database/vk-cloud-dbaas-quickstart._RKkhg/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8db2780e-9a6a-49e2-900a-60ec8078a127.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8db2780e-9a6a-49e2-900a-60ec8078a127/storage_v2/_src_/database/vk-cloud-dbaas-quickstart._RKkhg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8db2780e-9a6a-49e2-900a-60ec8078a127/storage_v2/_src_/database/vk-cloud-dbaas-quickstart._RKkhg/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8db2780e-9a6a-49e2-900a-60ec8078a127/storage_v2/_src_/database/vk-cloud-dbaas-quickstart._RKkhg/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8db2780e-9a6a-49e2-900a-60ec8078a127/storage_v2/_src_/database/vk-cloud-dbaas-quickstart._RKkhg/schema/public.abK9xQ.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stankin-services-portal-back/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/stankin-services-portal-back/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stankin-services-portal-back/src/main/java/com/stankin/services/portal/back/stankinservicesportalback/authorization/controller/AuthorizationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/stankin-services-portal-back/src/main/java/com/stankin/services/portal/back/stankinservicesportalback/authorization/controller/AuthorizationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stankin-services-portal-back/src/main/java/com/stankin/services/portal/back/stankinservicesportalback/authorization/mapper/AuthorizationMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/stankin-services-portal-back/src/main/java/com/stankin/services/portal/back/stankinservicesportalback/authorization/mapper/AuthorizationMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stankin-services-portal-back/src/main/java/com/stankin/services/portal/back/stankinservicesportalback/authorization/model/CheckUserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/stankin-services-portal-back/src/main/java/com/stankin/services/portal/back/stankinservicesportalback/authorization/model/CreateUserRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stankin-services-portal-back/src/main/java/com/stankin/services/portal/back/stankinservicesportalback/authorization/model/ClientDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/stankin-services-portal-back/src/main/java/com/stankin/services/portal/back/stankinservicesportalback/authorization/model/ClientDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stankin-services-portal-back/src/main/java/com/stankin/services/portal/back/stankinservicesportalback/authorization/service/AuthorizationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/stankin-services-portal-back/src/main/java/com/stankin/services/portal/back/stankinservicesportalback/authorization/service/AuthorizationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stankin-services-portal-back/src/main/java/com/stankin/services/portal/back/stankinservicesportalback/authorization/service/AuthorizationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/stankin-services-portal-back/src/main/java/com/stankin/services/portal/back/stankinservicesportalback/authorization/service/AuthorizationServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stankin-services-portal-back/src/main/java/com/stankin/services/portal/back/stankinservicesportalback/entity/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/stankin-services-portal-back/src/main/java/com/stankin/services/portal/back/stankinservicesportalback/entity/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stankin-services-portal-back/src/main/java/com/stankin/services/portal/back/stankinservicesportalback/repository/ClientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/stankin-services-portal-back/src/main/java/com/stankin/services/portal/back/stankinservicesportalback/repository/ClientRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stankin-services-portal-back/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/stankin-services-portal-back/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +50,26 @@
                 <item name="stankinservicesportalback" type="f1a62948:ProjectNode" />
                 <item name="stankinservicesportalback" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="stankinservicesportalback" type="f1a62948:ProjectNode" />
+                <item name="stankinservicesportalback" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="stankinservicesportalback" type="f1a62948:ProjectNode" />
+                <item name="stankinservicesportalback" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="stankinservicesportalback" type="f1a62948:ProjectNode" />
+                <item name="stankinservicesportalback" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="compileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
               </path>
             </expand>
             <select />
@@ -99,39 +115,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "temurin-17",
-    "last_opened_file_path": "D:/Projects/IntellijIdea/stankin-services-portal/stankin-services-portal-back",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.5632184",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;temurin-17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Projects/IdeaProjects/demo&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.5632184&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;bebe0cd4f5ecd0b29f34711e7305548b&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;,
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="Push.Settings">
     <force-push-targets>
       <force-push-target remote-path="origin" branch="feature-back-19" />
@@ -193,6 +211,9 @@
       <workItem from="1713091120036" duration="1078000" />
       <workItem from="1713092212907" duration="11473000" />
       <workItem from="1713441792614" duration="8686000" />
+      <workItem from="1716321404831" duration="1441000" />
+      <workItem from="1716569630659" duration="4944000" />
+      <workItem from="1716575242520" duration="1455000" />
     </task>
     <task id="LOCAL-00001" summary="#19 Реализовать авторизацию на бэке">
       <created>1713103462718</created>
