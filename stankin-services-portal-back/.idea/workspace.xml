@@ -4,16 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6c90cd6-b626-459c-8833-01cccf04980c" name="Changes" comment="#19 Реализовать авторизацию на бэке">
+    <list default="true" id="e6c90cd6-b626-459c-8833-01cccf04980c" name="Changes" comment="#48 Инициализация базовой логики контроллера, репозитория, сервиса для услуги и типа услуги">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8db2780e-9a6a-49e2-900a-60ec8078a127.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8db2780e-9a6a-49e2-900a-60ec8078a127/storage_v2/_src_/database/vk-cloud-dbaas-quickstart._RKkhg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8db2780e-9a6a-49e2-900a-60ec8078a127/storage_v2/_src_/database/vk-cloud-dbaas-quickstart._RKkhg/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8db2780e-9a6a-49e2-900a-60ec8078a127/storage_v2/_src_/database/vk-cloud-dbaas-quickstart._RKkhg/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8db2780e-9a6a-49e2-900a-60ec8078a127/storage_v2/_src_/database/vk-cloud-dbaas-quickstart._RKkhg/schema/public.abK9xQ.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stankin-services-portal-back/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/stankin-services-portal-back/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stankin-services-portal-back/src/main/java/com/stankin/services/portal/back/stankinservicesportalback/StankinServicesPortalBackApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/stankin-services-portal-back/src/main/java/com/stankin/services/portal/back/stankinservicesportalback/StankinServicesPortalBackApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stankin-services-portal-back/src/main/java/com/stankin/services/portal/back/stankinservicesportalback/authorization/service/AuthorizationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/stankin-services-portal-back/src/main/java/com/stankin/services/portal/back/stankinservicesportalback/authorization/service/AuthorizationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stankin-services-portal-back/src/main/java/com/stankin/services/portal/back/stankinservicesportalback/entity/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/stankin-services-portal-back/src/main/java/com/stankin/services/portal/back/stankinservicesportalback/entity/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stankin-services-portal-back/src/main/java/com/stankin/services/portal/back/stankinservicesportalback/entity/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/stankin-services-portal-back/src/main/java/com/stankin/services/portal/back/stankinservicesportalback/entity/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stankin-services-portal-back/src/main/java/com/stankin/services/portal/back/stankinservicesportalback/entity/ServiceEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/stankin-services-portal-back/src/main/java/com/stankin/services/portal/back/stankinservicesportalback/entity/ClientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stankin-services-portal-back/src/main/java/com/stankin/services/portal/back/stankinservicesportalback/entity/ServiceTypeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/stankin-services-portal-back/src/main/java/com/stankin/services/portal/back/stankinservicesportalback/entity/ClientServiceType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stankin-services-portal-back/src/main/java/com/stankin/services/portal/back/stankinservicesportalback/repository/ClientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/stankin-services-portal-back/src/main/java/com/stankin/services/portal/back/stankinservicesportalback/repository/ClientRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stankin-services-portal-back/src/main/java/com/stankin/services/portal/back/stankinservicesportalback/repository/ServiceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/stankin-services-portal-back/src/main/java/com/stankin/services/portal/back/stankinservicesportalback/repository/ClientServiceRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stankin-services-portal-back/src/main/java/com/stankin/services/portal/back/stankinservicesportalback/services/controller/ServiceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/stankin-services-portal-back/src/main/java/com/stankin/services/portal/back/stankinservicesportalback/clientservice/controller/ClientServiceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stankin-services-portal-back/src/main/java/com/stankin/services/portal/back/stankinservicesportalback/services/model/ServiceRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/stankin-services-portal-back/src/main/java/com/stankin/services/portal/back/stankinservicesportalback/clientservice/model/ClientServiceRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stankin-services-portal-back/src/main/java/com/stankin/services/portal/back/stankinservicesportalback/services/service/ServiceClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/stankin-services-portal-back/src/main/java/com/stankin/services/portal/back/stankinservicesportalback/clientservice/service/ServiceClientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stankin-services-portal-back/src/main/java/com/stankin/services/portal/back/stankinservicesportalback/services/service/ServiceClientServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/stankin-services-portal-back/src/main/java/com/stankin/services/portal/back/stankinservicesportalback/clientservice/service/ServiceClientServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stankin-services-portal-back/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/stankin-services-portal-back/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,6 +87,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -139,7 +145,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.5632184&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;bebe0cd4f5ecd0b29f34711e7305548b&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
@@ -214,6 +220,12 @@
       <workItem from="1716321404831" duration="1441000" />
       <workItem from="1716569630659" duration="4944000" />
       <workItem from="1716575242520" duration="1455000" />
+      <workItem from="1716576934486" duration="166000" />
+      <workItem from="1716629015387" duration="1932000" />
+      <workItem from="1716631616818" duration="14000" />
+      <workItem from="1717231108613" duration="1850000" />
+      <workItem from="1717274155505" duration="3689000" />
+      <workItem from="1717311601792" duration="11954000" />
     </task>
     <task id="LOCAL-00001" summary="#19 Реализовать авторизацию на бэке">
       <created>1713103462718</created>
@@ -222,7 +234,21 @@
       <option name="project" value="LOCAL" />
       <updated>1713103462718</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Добавление локальной базы данных">
+      <created>1716577008830</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716577008830</updated>
+    </task>
+    <task id="LOCAL-00003" summary="#48 Инициализация базовой логики контроллера, репозитория, сервиса для услуги и типа услуги">
+      <created>1716630906333</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716630906333</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,7 +265,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="feature-back-19" />
+                        <option value="feature-backend-48" />
                       </list>
                     </value>
                   </entry>
@@ -253,7 +279,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="#19 Реализовать авторизацию на бэке" />
-    <option name="LAST_COMMIT_MESSAGE" value="#19 Реализовать авторизацию на бэке" />
+    <MESSAGE value="Добавление локальной базы данных" />
+    <MESSAGE value="#48 Инициализация базовой логики контроллера, репозитория, сервиса для услуги и типа услуги" />
+    <option name="LAST_COMMIT_MESSAGE" value="#48 Инициализация базовой логики контроллера, репозитория, сервиса для услуги и типа услуги" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
