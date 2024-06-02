@@ -2,9 +2,12 @@ package com.stankin.services.portal.back.stankinservicesportalback.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.OneToMany;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.util.Set;
 import java.util.UUID;
 
 @Entity
@@ -32,5 +35,10 @@ public class Client extends BaseEntity {
     /**
      * Уникальный токен сессии пользователя
      */
+    @Column(unique = true)
     private UUID token;
+
+    @OneToMany
+    @JoinColumn(name = "clientGuid")
+    private Set<ClientService> clientServices;
 }

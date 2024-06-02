@@ -31,7 +31,7 @@ public class AuthorizationServiceImpl implements AuthorizationService {
         try {
             String userName = request.getUserName();
             UUID token = request.getToken();
-            if (Objects.nonNull(userName) && Objects.nonNull(request.getPassword())) {
+            if (Objects.nonNull(userName) && Objects.nonNull(request.getPassword()) && Objects.isNull(token)) {
                 Client client = clientRepository.findByUserName(request.getUserName());
                 if (Objects.nonNull(client) &&
                         passwordEncoder.matches(request.getPassword(), client.getPassword())) {
